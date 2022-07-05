@@ -21,7 +21,7 @@ async def on_message(ctx):
     t = 0
     men_person = ctx.mentions
     c = ctx.content
-    if ctx.channel.id == 792059735830036500:
+    if ctx.channel.id == : // Input your desire channel's id or use a global variable.
         message_people = []
         for i in men_roles:
 
@@ -55,7 +55,7 @@ async def on_message(ctx):
 
 
 
-client.run("ODMyNjQyNDA2MjY0NDcxNTY0.YHmwqw.TUIcu5aGHfk5aHS5_HV6QtSc9A8")
+client.run() // Input your bot id here as a string or use a global variable to hide it.
 
 
 
